@@ -4,11 +4,16 @@ import csv
 print("Start checking links...\n")
 
 with open("urls.csv", newline="") as file:
-    reader = csv.DictReader(file)
+    reader = csv.reader(file)
     next(reader)
 
     for row in reader:
-        url = row[0]
+        if not row:
+            continue # sla lege waarde over
+            
+        url = row[0].strip()
+        if not url:
+            continue # sla lege waarde over
 
         try:
             response = requests.get(
