@@ -22,8 +22,10 @@ with open("urls.csv", newline="") as file:
     reader = csv.reader(file)
     next(reader)
 
-    for i, row in enumerate(reader):
-    if i >= 10:
+   LIMIT = 10
+
+for i, row in enumerate(reader):
+    if i >= LIMIT:
         break
         
         if not row:
