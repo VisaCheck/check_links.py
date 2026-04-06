@@ -60,5 +60,3 @@ print("Start checking links...\n")
 
         except Exception:
             print(f"{url} → ERROR")
-🎯 Wat je nu fixt
-Probleem	Opge
