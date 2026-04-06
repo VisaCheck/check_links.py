@@ -1,4 +1,4 @@
-name: Link Checker
+name: Check Links
 
 on:
   workflow_dispatch:
