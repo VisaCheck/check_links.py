@@ -2,23 +2,14 @@ import requests
 import csv
 
 KEYWORDS = [
-    "visa",
-    "visum",
-    "tourism",
-    "tourist visa",
-    "work visa",
-    "student visa",
-    "eta",
-    "etias",
-    "visa required",
-    "passport",
-    "business visa",
-    "transit visa"
+    "visa", "visum", "tourism", "tourist visa",
+    "work visa", "student visa", "eta", "etias",
+    "visa required", "passport", "business visa", "transit visa"
 ]
 
 print("Start checking links...\n")
 
-   with open("urls.csv", newline="") as file:
+with open("urls.csv", newline="") as file:
     reader = csv.reader(file)
     next(reader)
 
