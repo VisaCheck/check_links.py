@@ -7,7 +7,7 @@ with open("urls.csv", newline="") as file:
     reader = csv.DictReader(file)
 
     for row in reader:
-        url = row["url"]
+        urls = row["urls"]
 
         try:
             response = requests.get(
