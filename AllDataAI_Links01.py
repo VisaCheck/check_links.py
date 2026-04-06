@@ -9,28 +9,155 @@ KEYWORDS_MULTI = {
             "core": [
                 "visa requirements", "visa required", "visa free", "visa-free",
                 "visa on arrival", "evisa", "e-visa", "entry requirements",
-                "visa policy", "visa waiver"
+                "visa policy", "visa waiver", "tourism visa", "visa", "etias", "voa",
+                "work visa", "student", "student visa", "business visa"
             ]
         },
         "nl": {
-            "core": ["visumvereisten", "visum nodig", "visumvrij", "visum bij aankomst"]
+            "core": [
+                "visum", "visumvereisten", "visum nodig", "visumvrij",
+                "visum bij aankomst", "toeristenvisum", "werkvisum", "studentenvisum",
+                "paspoort", "toegangseisen"
+            ]
         },
         "es": {
-            "core": ["requisitos de visa", "visa requerida", "sin visa", "visa a la llegada"]
+            "core": [
+                "requisitos de visa", "visa requerida", "sin visa",
+                "visa a la llegada", "visado", "visado requerido"
+            ]
         },
         "fr": {
-            "core": ["conditions de visa", "visa requis", "sans visa"]
+            "core": [
+                "conditions de visa", "visa requis", "sans visa",
+                "visa à l'arrivée"
+            ]
         },
         "de": {
-            "core": ["visum erforderlich", "visumfrei"]
+            "core": [
+                "visum", "visum erforderlich", "visumfrei",
+                "visum bei ankunft"
+            ]
         },
         "pt": {
-            "core": ["visto necessário", "isento de visto"]
+            "core": [
+                "visto", "visto necessário", "isento de visto",
+                "visto na chegada"
+            ]
+        },
+        "it": {
+            "core": [
+                "visto", "visto richiesto", "visto all'arrivo"
+            ]
+        },
+        "tr": {
+            "core": [
+                "vize", "vize gerekli", "vize muafiyeti",
+                "kapıda vize"
+            ]
+        },
+        "ru": {
+            "core": [
+                "виза", "виза требуется", "безвизовый",
+                "виза по прибытии"
+            ]
+        },
+        "uk": {
+            "core": [
+                "віза", "віза потрібна"
+            ]
+        },
+        "pl": {
+            "core": [
+                "wiza", "wiza wymagana", "ruch bezwizowy"
+            ]
+        },
+        "sv": {
+            "core": [
+                "visum", "visum krävs", "visumfritt"
+            ]
+        },
+        "no": {
+            "core": [
+                "visum", "visum kreves", "visumfri"
+            ]
+        },
+        "da": {
+            "core": [
+                "visum", "visum kræves", "visumfri"
+            ]
+        },
+        "fi": {
+            "core": [
+                "viisumi", "viisumi vaaditaan", "viisumivapaa"
+            ]
+        },
+        "el": {
+            "core": [
+                "βίζα", "απαιτείται βίζα"
+            ]
+        },
+        "cs": {
+            "core": [
+                "vízum", "vízum vyžadováno"
+            ]
+        },
+        "hu": {
+            "core": [
+                "vízum", "vízum szükséges"
+            ]
+        },
+        "ro": {
+            "core": [
+                "viză", "viză necesară"
+            ]
+        },
+        "bg": {
+            "core": [
+                "виза", "виза необходима"
+            ]
         },
         "ar": {
-            "core": ["متطلبات التأشيرة", "بدون تأشيرة"]
+            "core": [
+                "تأشيرة", "متطلبات التأشيرة", "بدون تأشيرة"
+            ]
+        },
+        "hi": {
+            "core": [
+                "वीजा", "वीजा आवश्यक", "वीजा मुक्त"
+            ]
+        },
+        "zh": {
+            "core": [
+                "签证", "需要签证", "免签", "落地签"
+            ]
+        },
+        "ja": {
+            "core": [
+                "ビザ", "ビザ必要", "ビザ免除"
+            ]
+        },
+        "ko": {
+            "core": [
+                "비자", "비자 필요", "무비자"
+            ]
+        },
+        "id": {
+            "core": [
+                "visa", "bebas visa", "visa saat kedatangan"
+            ]
+        },
+        "th": {
+            "core": [
+                "วีซ่า", "ไม่ต้องขอวีซ่า"
+            ]
+        },
+        "vi": {
+            "core": [
+                "thị thực", "miễn thị thực"
+            ]
         }
-    },
+    }
+}
     "tier2": {
         "zh": {"core": ["签证要求", "免签", "落地签", "电子签证"]},
         "ru": {"core": ["визовые требования", "без визы"]},
