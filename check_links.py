@@ -5,9 +5,10 @@ print("Start checking links...\n")
 
 with open("urls.csv", newline="") as file:
     reader = csv.DictReader(file)
+    next(reader)
 
     for row in reader:
-        url = row["url"]
+        url = row[0]
 
         try:
             response = requests.get(
