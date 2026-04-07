@@ -12,7 +12,8 @@ KEYWORDS_MULTI = {
             "visa requirements", "visa required", "visa free", "visa-free",
             "visa on arrival", "evisa", "e-visa", "entry requirements",
             "visa policy", "visa waiver", "tourism visa", "visa", "etias", "voa",
-            "work visa", "student", "student visa", "business visa"
+            "work visa", "student", "student visa", "business visa", "eta", "etias",
+            "visa on arrival", "VOA", 
         ]},
         "nl": {"core": [
             "visum", "visumvereisten", "visum nodig", "visumvrij",
